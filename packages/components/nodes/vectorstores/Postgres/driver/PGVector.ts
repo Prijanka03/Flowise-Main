@@ -1,6 +1,5 @@
-/*
-* Temporary disabled due to increasing open connections without releasing them
-* Use TypeORM instead
+// Temporary disabled due to increasing open connections without releasing them
+// Use TypeORM instead
 
 import { VectorStoreDriver } from './Base'
 import { FLOWISE_CHATID } from '../../../../src'
@@ -124,4 +123,3 @@ export class PGVectorDriver extends VectorStoreDriver {
         return instance
     }
 }
-*/

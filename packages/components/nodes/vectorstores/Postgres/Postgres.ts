@@ -91,7 +91,7 @@ class Postgres_VectorStores implements INode {
                 additionalParams: true,
                 optional: true
             },
-            /*{
+            {
                 label: 'Driver',
                 name: 'driver',
                 type: 'options',
@@ -109,7 +109,7 @@ class Postgres_VectorStores implements INode {
                 ],
                 optional: true,
                 additionalParams: true
-            },*/
+            },
             {
                 label: 'Distance Strategy',
                 name: 'distanceStrategy',
